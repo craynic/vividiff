@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "vividiff": {
+      "type": "stdio",
+      "command": "D:/projects/vividiff/target/release/vividiff-cli.exe",
+      "args": [
+        "mcp"
+      ]
+    }
+  }
+}

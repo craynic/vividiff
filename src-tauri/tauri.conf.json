@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "vividiff",
+  "version": "0.1.0",
+  "identifier": "app.vividiff.desktop",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://127.0.0.1:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "vividiff",
+        "width": 1440,
+        "height": 960,
+        "minWidth": 900,
+        "minHeight": 600
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; connect-src ipc: http://ipc.localhost; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; object-src 'none'"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "licenseFile": "../LICENSE",
+    "resources": {
+      "../docs/THIRD_PARTY_NOTICES.txt": "THIRD_PARTY_NOTICES.txt",
+      "../docs/THIRD_PARTY.json": "THIRD_PARTY.json"
+    },
+    "targets": ["nsis"],
+    "externalBin": ["binaries/vividiff-cli"],
+    "icon": ["icons/icon.ico"],
+    "windows": {
+      "nsis": {
+        "displayLanguageSelector": false
+      }
+    }
+  }
+}

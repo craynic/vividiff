@@ -1,0 +1,10 @@
+{
+  "installer": "target/release/bundle/nsis/vividiff_0.1.0_x64-setup.exe",
+  "sizeBytes": 6332598,
+  "sha256": "4E7659B5526AA66965A5B146E26FC6E23EE5969845CF98DA2992A2712CCBD1E0",
+  "installExitCode": 0,
+  "nativeSmokePassed": true,
+  "uninstallExitCode": 0,
+  "installedAppRemoved": true,
+  "signed": false
+}

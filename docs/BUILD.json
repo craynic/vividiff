@@ -1,0 +1,16 @@
+{
+  "builtAt": "2026-10-10T15:37:39.7191345Z",
+  "desktop": {
+    "path": "target/release/vividiff.exe",
+    "sizeBytes": 14289920,
+    "sha256": "9AE0911B6A987944ACE1F438E1E95312562AA7FFF45E7794224551D8E384ECC8"
+  },
+  "installer": {
+    "path": "target/release/bundle/nsis/vividiff_0.1.0_x64-setup.exe",
+    "sizeBytes": 6335954,
+    "sha256": "E20C8CBA6BC3F015F9A3FB5670265220D1599FD5E3D06DA85B1D57FCF234D58A"
+  },
+  "cliReused": true,
+  "nativeSmokePassed": true,
+  "signed": false
+}

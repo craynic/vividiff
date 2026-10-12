@@ -1,0 +1,30 @@
+{
+  "platform": "win32 10.0.26200",
+  "cpu": "13th Gen Intel(R) Core(TM) i9-13900H",
+  "memoryGiB": 32,
+  "node": "v25.8.1",
+  "lines": 100000,
+  "bytes": 1088890,
+  "samples": [
+    {
+      "milliseconds": 158.21,
+      "parts": 5
+    },
+    {
+      "milliseconds": 89.3,
+      "parts": 5
+    },
+    {
+      "milliseconds": 107.06,
+      "parts": 5
+    },
+    {
+      "milliseconds": 110.27,
+      "parts": 5
+    },
+    {
+      "milliseconds": 119.88,
+      "parts": 5
+    }
+  ]
+}

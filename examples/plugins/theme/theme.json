@@ -1,0 +1,28 @@
+{
+  "name": "vivid-ocean",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0d1119",
+    "editor.foreground": "#dce5ef"
+  },
+  "tokenColors": [
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#7de0cc"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#e7c489"
+      }
+    },
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#8799ab"
+      }
+    }
+  ]
+}

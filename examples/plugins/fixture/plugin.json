@@ -1,0 +1,10 @@
+{
+  "id": "fixture",
+  "version": "0.1.0",
+  "protocolVersion": 1,
+  "kind": "vcs",
+  "runtime": "node",
+  "entry": "provider.mjs",
+  "capabilities": ["revisions"],
+  "permissions": ["read files in the chosen source directory"]
+}

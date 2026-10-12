@@ -1,0 +1,9 @@
+[workspace]
+members = ["crates/core", "src-tauri"]
+default-members = ["crates/core"]
+resolver = "2"
+
+# The desktop crate primarily embeds web assets and bridges IPC. Keep its
+# optimizer memory bounded; the service and all dependencies remain optimized.
+[profile.release.package.vividiff]
+opt-level = 1

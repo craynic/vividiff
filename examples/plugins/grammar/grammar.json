@@ -1,0 +1,15 @@
+{
+  "name": "vivid-notes",
+  "scopeName": "source.vivid-notes",
+  "patterns": [
+    {
+      "name": "keyword.control.vivid-notes",
+      "match": "\\b(TODO|REVIEW|DONE)\\b"
+    },
+    {
+      "name": "string.quoted.double.vivid-notes",
+      "begin": "\"",
+      "end": "\""
+    }
+  ]
+}

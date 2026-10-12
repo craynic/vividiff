@@ -1,0 +1,10 @@
+{
+  "identifier": "main",
+  "description": "Local read-only review window",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "core:default"
+  ]
+}

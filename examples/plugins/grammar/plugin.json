@@ -1,0 +1,8 @@
+{
+  "id": "vivid-notes",
+  "version": "0.1.0",
+  "protocolVersion": 1,
+  "kind": "grammar",
+  "resource": "grammar.json",
+  "extensions": ["vnote"]
+}

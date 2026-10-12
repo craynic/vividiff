@@ -1,0 +1,6 @@
+# Merge this table into ~/.codex/config.toml; replace command with your actual path.
+[mcp_servers.vividiff]
+command = "D:/projects/vividiff/target/release/vividiff-cli.exe"
+args = ["mcp"]
+startup_timeout_sec = 30
+tool_timeout_sec = 180

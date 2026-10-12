@@ -1,0 +1,16 @@
+{
+  "executable": "D:\\projects\\vividiff\\target\\release\\vividiff.exe",
+  "passed": true,
+  "reviewId": "1861bd40-142f-49e3-a21e-95ac41ee5b2d",
+  "checks": [
+    "native WebView2 startup",
+    "Tauri IPC",
+    "CLI creates real Git comparison",
+    "single-instance desktop open",
+    "native syntax highlighting",
+    "line comment saved",
+    "automated user-side UI completion action",
+    "CLI reads completed result"
+  ],
+  "completedAt": "2026-10-10T15:38:15.929Z"
+}
